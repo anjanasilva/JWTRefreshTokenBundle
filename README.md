@@ -257,7 +257,7 @@ use Gesdinet\JWTRefreshTokenBundle\Entity\AbstractRefreshToken;
 
 /**
  * This class override Gesdinet\JWTRefreshTokenBundle\Entity\RefreshToken to have another table name.
- *
+ * @ORM\Entity
  * @ORM\Table("jwt_refresh_token")
  */
 class JwtRefreshToken extends AbstractRefreshToken
